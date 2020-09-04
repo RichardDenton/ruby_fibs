@@ -1,3 +1,4 @@
+# Iterative solution 
 def fibs(number_of_members)
   fib_sequence = [0, 1]
   return fib_sequence.slice(0, number_of_members) if number_of_members <= 2
@@ -8,6 +9,7 @@ def fibs(number_of_members)
   fib_sequence
 end
 
+# Recursive solution
 def fibs_rec(number_of_members)
   return [0, 1].slice(0, number_of_members) if number_of_members <= 2
   
